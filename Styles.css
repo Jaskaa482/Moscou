@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #2932B9;
+    width: 100%;
+}
+
+.abtus{
+    /* background-color: red; */
+    width: 10%;
+    position: relative;
+    top: -780px;
+    left: 20px;
+}
+
+h6{
+    font-size: 20px;
+    font-family: 'Simple', sans-serif;
+    text-transform: uppercase;
+}
+
+.abtus p{
+    font-size: 22px;
+    font-family: 'Helena Signature', sans-serif;
+    position: relative;
+    top: -30px;
+}
+
+.front {
+    display: block;
+}
+
+.content{
+    top: -230px;
+    max-height: 200vh;
+    position: relative;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #2932B9;
+    /* height: 100vh; */
+    position: relative;
+    top: -30px;
+}
+
+h1 {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Im Wunderland', sans-serif;
+    font-size: 90px;
+    text-align: left;
+    left: 5%;
+}
+
+.coet{
+    /* background-color: red; */
+    background-size: cover;
+    left: -250px;
+    top: 120px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.coet img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.fristext {
+    top: -50px;
+    text-align: left;
+    /* font-family: 'Concert One', cursive; */
+    font-family: 'KG Part of Me', sans-serif;
+    font-size: 20px;
+    left: 5%;
+    list-style-type: none;
+    position: relative;
+    width: 60%;
+    color: white;
+}
+
+#preloader {
+    background: #E3F9FC url(https://cdn.dribbble.com/users/63485/screenshots/2949464/dribbble.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: 50%;
+    position: fixed;
+    z-index: 100;
+    opacity: 1;
+}
+
+.content2{
+    position: relative;
+    /* top: -50px; */
+    /* background-color: red; */
+    display: grid;
+    /* margin-left: 50px; */
+    place-content: center   ;
+    height: 80vh;
+}
+
+.discord img{
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.discord img:hover {
+    box-shadow: 0 0 0px lightblue, 0 0 0px lightblue, 0 0 0px lightblue, 0 0 120px lightblue;
+}
+
+.discord p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'KG Part of Me', sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    top: 40px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Im Wunderland', sans-serif;
+    font-size: 90px;
+    text-align: left;
+}
+
+/* .image {
+    transform-origin: top left;
+    transition: transform 0.1s ease-out;
+}
+   */
+
+body::-webkit-scrollbar {
+    /* height: 30px; */
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    /* color of the tracking area */
+    background: #2932B9;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* color of the scroll thumb */
+    background-color: white;
+    /* roundness of the scroll thumb */
+    border-radius: 20px;
+    /* creates padding around scroll thumb */
+    border: 3px solid #1d1d4f;
+}
